@@ -1,4 +1,4 @@
-## 关于setBar
+## setBar缘起
 平常班里经常会有一些截图打卡活动，所以写了一个脚本，这个脚本可以把你自己的手机截图的状态栏和其他截图合起来成为一张可用的截图
 ## setBar怎么用？
 setBar是一个小脚本，在setBar.py里写了一个函数：  
@@ -6,7 +6,7 @@ change_statusBar(base , yourself , out)
 这个函数接受三个字符串参数,base是别人的截图文件名，yoursel是你自己的截图文件名，out是输出图片文件名
 ### 下载代码：
 1.  直接点击下载setBar.py或者将代码到处黏贴
-2. git@github.com:maoyuqing/setBar.git 就可以将脚本整个clone到本地啦（linux用户）
+2. git clone git@github.com:maoyuqing/setBar.git 下载代码到本地
 3. pip install setBar 就可以在你的python脚本里调用这个函数了：from setBar import change_statusBar 
 
 ### 举个例子：
